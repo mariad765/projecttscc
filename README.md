@@ -6,7 +6,6 @@ Acest proiect utilizează Autodesk Fusion 360 pentru realizarea designului carca
 
 # Diagrama Bloc
 
-### General:
 
 <prev>
 +------------------------+     +------------------------+     +------------------------+
