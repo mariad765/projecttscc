@@ -7,7 +7,9 @@ Acest proiect utilizează Autodesk Fusion 360 pentru realizarea designului carca
 # Diagrama Bloc
 
 ### General:
+
 <prev>
+
 +------------------------+     +------------------------+     +------------------------+
 | USB-C + ESD Protection | --> | LDO Voltage Regulator  | --> | Li-Po Charging Ctrl.   |
 +------------------------+     +------------------------+     +------------------------+
@@ -99,7 +101,6 @@ Acest proiect utilizează Autodesk Fusion 360 pentru realizarea designului carca
              |        |          |          |
              |        |          |          |
              v        v          v          v
-
 +------------------+ +------------------+ +-------------------+ +-------------------+
 | RTC DS3231SN     | | BME688 Sensor    | | E-Paper Display   | | External NOR Flash|
 | U3, C1, C2       | | Ux, Cx (Filter)  | | Header + Drive    | | U1, Cx (Decouple) |
@@ -113,17 +114,14 @@ Acest proiect utilizează Autodesk Fusion 360 pentru realizarea designului carca
                       | SD Card Module (SPI)              |
                       | + Pull-up Resistors               |
                       +------------------------------------+
-
                       +--------------------------------------------+
                       | Voltage Supervisor + Boot + Reset Buttons  |
                       | Ux (BD52), R1, R2, C1, C2                   |
                       +--------------------------------------------+
-
                       +------------------+ +--------------------+
                       | EPD Power        | | SPI ESD Protection |
                       | Zener Diode      | | TVS Diodes         |
                       +------------------+ +--------------------+
-
                       +---------------------------+
                       | Qwiic / Stemma QT Header  |
                       | 4-Pin Connector           |
@@ -175,7 +173,7 @@ CRYSTAL = Oscilator 32.768kHz pentru RTC
 | BD5229G-TR                             | [Datasheet](https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd52xxg-e.pdf) | [Purchase](https://eu.mouser.com/ProductDetail/ROHM-Semiconductor/BD5229G-TR?qs=4kLU8WoGk0vvnhrrYwdszw%3D%3D) |                                                                                                                                                                                                                                                                                                                          |
 | ESP32_WROVER_BME680_BME680             | [Datasheet](https://eu.mouser.com/datasheet/2/783/bst_bme688_fl000-2307034.pdf)                      | [Purchase](https://eu.mouser.com/ProductDetail/Bosch-Sensortec/BME688?qs=IS%252B4QmGtzzqQoVDscqwx3A%3D%3D)                                                       |                                                                                                                                                                                                                                                                                                                          |
 | BUTTON_CUSYOMV1                         | [Datasheet](https://www.ckswitches.com/media/1482/kms.pdf)                                           | [Purchase](https://eu.mouser.com/ProductDetail/CK/KMS231G?qs=cygERTaPE9Aulmq4rq4WXQ%3D%3D)                     | ✅ Side-Actuated Tactile Switches (Compatible with KMR2 footprint)                                                                                                                                                                                                                                                                                                    |
-| CPH3225A                               | [Datasheet](https://eu.mouser.com/datasheet/2/360/Seiko_Instruments_MicroBattery_E_20230330_2024Jan_-3561061.pdf) | [Purchase](https://eu.mouser.com/ProductDetail/Seiko-Semiconductors/CPH3225A?qs=3etwrb1wR%252BhUOph6lAO7eg%3D%3D&utm_id=6470900573&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gclid=CjwKCAjwzMi_BhACEiwAX4YZUD6usznTzJWXm4Z9u8rBBFy2NakSyAr25YMlMpxMyBTQ3bVXFg2nFhoCpx0QAvD_BwE |                                                                                                                                                                                                                                                                                                                          |
+| CPH3225A                               | [Datasheet](https://eu.mouser.com/datasheet/2/360/Seiko_Instruments_MicroBattery_E_20230330_2024Jan_-3561061.pdf) | [Purchase](https://eu.mouser.com/ProductDetail/Seiko-Semiconductors/CPH3225A?qs=3etwrb1wR%252BhUOph6lAO7eg%3D%3D&utm_id=6470900573&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gclid=CjwKCAjwzMi_BhACEiwAX4YZUD6usznTzJWXm4Z9u8rBBFy2NakSyAr25YMlMpxMyBTQ3bVXFg2nFhoCpx0QAvD_BwE) |                                                                                                                                                                                                                                                                                                                          |
 | DS3231SN#                              | [Datasheet](https://eu.mouser.com/datasheet/2/609/DS3231-3421123.pdf)                                | [Purchase](https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=562593&manufacturer=Seiko%20Instruments&part_name=CPH3225A&search_term=None)          |                                                                                                                                                                                                                                                                                                                          |
 | ESP32-C6-WROOM-1-N8                    | [Datasheet](https://eu.mouser.com/datasheet/2/891/Espressif_ESP32_C6_WROOM_1__Datasheet_V0_1_PRELIMI-3239987.pdf) | [Purchase](https://eu.mouser.com/ProductDetail/Espressif-Systems/ESP32-C6-WROOM-1-N8?qs=8Wlm6%252BaMh8ST02Gmwp74cw%3D%3D)                                            |                                                                                                                                                                                                                                                                                                                          |
 | ESP32C6_VARISTORCN1812                 | [Datasheet](https://www.snapeda.com/parts/PFMF.050.2/Schurter/datasheet/)                             | [Purchase](https://www.digikey.com/en/products/detail/schurter-inc/PFMF-050-2/1731348?utm_campaign=buynow&utm_medium=aggregator&utm_source=snapeda)               |                                                                                                                                                                                                                                                                                                                          |
@@ -184,9 +182,7 @@ CRYSTAL = Oscilator 32.768kHz pentru RTC
 | FH34SRJ-24S-0.5SH_99_                  | [Datasheet](https://www.snapeda.com/parts/FH34SRJ-24S-0.5SH(99)/Hirose%20Electric/datasheet/)         | [Purchase](https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/FH34SRJ-24S-0-5SH-99/5132529?utm_campaign=buynow&utm_medium=aggregator&utm_source=snapeda) |                                                                                                                                                                                                                                                                                                                          |
 | MAX17048G+T10                          | [Datasheet](https://eu.mouser.com/datasheet/2/609/MAX17048_MAX17049-3469099.pdf)                     | [Purchase](https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=329239&manufacturer=Analog%20Devices&part_name=MAX17048G%2BT10&search_term=None)     |                                                                                                                                                                                                                                                                                                                          |
 | MBR0530                                | [Datasheet](https://www.onsemi.com/products/discrete-power-modules/schottky-diodes-schottky-rectifiers/mbr0530t3g) | [Purchase](https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=179458&manufacturer=ON%20Semiconductor&part_name=MBR0530&search_term=None)            |                                                                                                                                                                                                                                                                                                                          |
-| PGB1010603MR                           | [Datasheet](https://www.littelfuse.com/assetdocs/pulseguard-esd-suppressors-pgb1-datasheet?assetguid=8a337998-d54d-466b-be4
-
-b-c4736c63c12e) | [Purchase](https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=39658&manufacturer=Littelfuse&part_name=PGB1010603MR&search_term=None)        |                                                                                                                                                                                                                                                                                                                          |
+| PGB1010603MR                           | [Datasheet](https://www.littelfuse.com/assetdocs/pulseguard-esd-suppressors-pgb1-datasheet?assetguid=8a337998-d54d-466b-be4b-c4736c63c12e) | [Purchase](https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=39658&manufacturer=Littelfuse&part_name=PGB1010603MR&search_term=None)        |                                                                                                                                                                                                                                                                                                                          |
 Here's the table formatted as requested:
 
 | **Device**                   | **DATASHEET**                                                                 | **PURCHASE-URL**                                                                                                      | **Notes**                                                                                                                                                                 |
@@ -194,7 +190,47 @@ Here's the table formatted as requested:
 | QWIIC_CONNECTORJS-1MM         | [Qwiic Connector Datasheet](https://eu.mouser.com/datasheet/2/813/Qwiic_Connector_Datasheet-1223982.pdf) | [SparkFun Product](https://eu.mouser.com/ProductDetail/SparkFun/PRT-14417?qs=wd5RIQLrsJhgdz%2FpmZ%2F3GQ%3D%3D)    |                                                                                                                                                                           |
 | SAMACSYS_PARTS_USB4110-GF-A   | [USB4110 Product Drawing](https://eu.mouser.com/datasheet/2/837/GCT_USB4110_Product_Drawing___20k_cycles-3455479.pdf) | [GCT Product](https://eu.mouser.com/ProductDetail/GCT/USB4110-GF-A?qs=KUoIvG%2F9IlYiZvIXQjyJeA%3D%3D)                    |                                                                                                                                                                           |
 | SI1308EDL-T1-GE3              | [SI1308EDL Datasheet](https://www.vishay.com/docs/63399/si1308edl.pdf)          | [Vishay Product](https://eu.mouser.com/ProductDetail/Vishay-Semiconductors/SI1308EDL-T1-GE3?qs=bX1%252BNvsK%2FBramh9tgpOaEw%3D%3D) |                                                                                                                                                                           |
-| TPTP20R                       | [TPTP20R Datasheet](https://eu.mouser.com/datasheet/2/215/000-5004-741320.pdf)  | [Keystone Product](https://eu.mouser.com/ProductDetail/Keystone-Electronics/5000?qs=q0tsjPZWdm%252B9SiiTAbEwUw%3D%3D) | TP20R is often associated with a round, 2.0 mm diameter test pad.                                                                                                      |
+| TPTP20R                       | [TPTP20R Datasheet](https://eu.mouser.com/datasheet/2/215/000-5004-741320.pdf)  | [Keystone Product](https://eu.mouser.com/ProductDetail/Keystone-Electronics/5000?qs=q0tsjPZWdm%252B9SiiTAbEwUw%3D%3D) | TP20R is often associated with a round, 2.0 mm diameter test pad.
+
+Here’s a commonly used and widely available match:
+
+✅ Keystone Electronics 5000 Series
+Model: Keystone 5000
+
+Type: SMT Test Point
+
+Material: Phosphor bronze
+
+Plating: Tin over Nickel
+
+Pad Diameter: Fits 2.0 mm pad
+
+Mounting: Surface Mount
+
+Application: General purpose test point for probes
+
+✅ Harwin S1751-46R
+Type: SMT Test Point
+
+For Pad: ~2.0 mm diameter
+
+Profile: Low
+
+Finish: Tin
+
+Common in: Test pads designed for probe contact
+
+✅ Alternative: Mill-Max 2501-2-00-80-00-00-07-0
+Type: Test Point/Contact Pad
+
+Style: Coined terminal
+
+Footprint Compatibility: Suitable with TP20R
+
+Mount: SMT
+
+Useful for: Precise contact with spring-loaded probes
+                                                                                                |
 | USBLC6-2SC6Y                  | [USBLC6-2SC6Y Datasheet](https://eu.mouser.com/datasheet/2/389/usblc6_2sc6y-1852505.pdf) | [STMicroelectronics Product](https://eu.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2SC6Y?qs=gNDSiZmRJS%2FOgDexvXkdow%3D%3D) |                                                                                                                                                                           |
 | W25Q512JVEIQ                  | [W25Q512JVEIQ Datasheet](https://eu.mouser.com/datasheet/2/949/Winbond_W25Q512JV_Datasheet-3240039.pdf) | [Winbond Product](https://eu.mouser.com/ProductDetail/Winbond/W25Q512JVEIQ?qs=l7cgNqFNU1jw6svr3at6tA%3D%3D)         |                                                                                                                                                                           |
 | XC6220A331MR-G                | [XC6220A331MR-G Datasheet](https://eu.mouser.com/datasheet/2/760/xc6220-3371556.pdf) | [Torex Semiconductor Product](https://eu.mouser.com/ProductDetail/Torex-Semiconductor/XC6220A331MR-G?qs=AsjdqWjXhJ8ZSWznL1J0gg%3D%3D) |                                                                                                                                                                           |
