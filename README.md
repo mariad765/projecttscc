@@ -274,7 +274,7 @@ Verificare și depanare ușoară
 
 # Pini ESP32-C6 folosiți
 
-<prev>
+```
 | Pin   | Funcție      | Modul conectat                    |
 |-------|--------------|-----------------------------------|
 | IO2   | SPI CLK      | E-Paper, Flash, SD Card           |
@@ -288,11 +288,12 @@ Verificare și depanare ușoară
 | EN    | Enable       | Buton de reset                    |
 | IO0   | Boot         | Buton boot                        |
 
-</prev>
+```
 
 # Alte resurse relevante
 
 -> Design log: toate PCB-urile au fost create în Fusion 360 Electronics, folosind standarde de rutare pentru 3.3V și SPI/I²C.
+
 -> Testare și depanare: TP1-TP17 permit sondare pentru verificare semnal
 
 
