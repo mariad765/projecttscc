@@ -187,46 +187,7 @@ Here's the table formatted as requested:
 | QWIIC_CONNECTORJS-1MM         | [Qwiic Connector Datasheet](https://eu.mouser.com/datasheet/2/813/Qwiic_Connector_Datasheet-1223982.pdf) | [SparkFun Product](https://eu.mouser.com/ProductDetail/SparkFun/PRT-14417?qs=wd5RIQLrsJhgdz%2FpmZ%2F3GQ%3D%3D)    |                                                                                                                                                                           |
 | SAMACSYS_PARTS_USB4110-GF-A   | [USB4110 Product Drawing](https://eu.mouser.com/datasheet/2/837/GCT_USB4110_Product_Drawing___20k_cycles-3455479.pdf) | [GCT Product](https://eu.mouser.com/ProductDetail/GCT/USB4110-GF-A?qs=KUoIvG%2F9IlYiZvIXQjyJeA%3D%3D)                    |                                                                                                                                                                           |
 | SI1308EDL-T1-GE3              | [SI1308EDL Datasheet](https://www.vishay.com/docs/63399/si1308edl.pdf)          | [Vishay Product](https://eu.mouser.com/ProductDetail/Vishay-Semiconductors/SI1308EDL-T1-GE3?qs=bX1%252BNvsK%2FBramh9tgpOaEw%3D%3D) |                                                                                                                                                                           |
-| TPTP20R                       | [TPTP20R Datasheet](https://eu.mouser.com/datasheet/2/215/000-5004-741320.pdf)  | [Keystone Product](https://eu.mouser.com/ProductDetail/Keystone-Electronics/5000?qs=q0tsjPZWdm%252B9SiiTAbEwUw%3D%3D) | TP20R is often associated with a round, 2.0 mm diameter test pad.
-Here’s a commonly used and widely available match:
-
-✅ Keystone Electronics 5000 Series
-Model: Keystone 5000
-
-Type: SMT Test Point
-
-Material: Phosphor bronze
-
-Plating: Tin over Nickel
-
-Pad Diameter: Fits 2.0 mm pad
-
-Mounting: Surface Mount
-
-Application: General purpose test point for probes
-
-✅ Harwin S1751-46R
-Type: SMT Test Point
-
-For Pad: ~2.0 mm diameter
-
-Profile: Low
-
-Finish: Tin
-
-Common in: Test pads designed for probe contact
-
-✅ Alternative: Mill-Max 2501-2-00-80-00-00-07-0
-Type: Test Point/Contact Pad
-
-Style: Coined terminal
-
-Footprint Compatibility: Suitable with TP20R
-
-Mount: SMT
-
-Useful for: Precise contact with spring-loaded probes
-                                                                                                |
+| TPTP20R                       | [TPTP20R Datasheet](https://eu.mouser.com/datasheet/2/215/000-5004-741320.pdf)  | [Keystone Product](https://eu.mouser.com/ProductDetail/Keystone-Electronics/5000?qs=q0tsjPZWdm%252B9SiiTAbEwUw%3D%3D) | TP20R is often associated with a round, 2.0 mm diameter test pad.  |
 | USBLC6-2SC6Y                  | [USBLC6-2SC6Y Datasheet](https://eu.mouser.com/datasheet/2/389/usblc6_2sc6y-1852505.pdf) | [STMicroelectronics Product](https://eu.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2SC6Y?qs=gNDSiZmRJS%2FOgDexvXkdow%3D%3D) |                                                                                                                                                                           |
 | W25Q512JVEIQ                  | [W25Q512JVEIQ Datasheet](https://eu.mouser.com/datasheet/2/949/Winbond_W25Q512JV_Datasheet-3240039.pdf) | [Winbond Product](https://eu.mouser.com/ProductDetail/Winbond/W25Q512JVEIQ?qs=l7cgNqFNU1jw6svr3at6tA%3D%3D)         |                                                                                                                                                                           |
 | XC6220A331MR-G                | [XC6220A331MR-G Datasheet](https://eu.mouser.com/datasheet/2/760/xc6220-3371556.pdf) | [Torex Semiconductor Product](https://eu.mouser.com/ProductDetail/Torex-Semiconductor/XC6220A331MR-G?qs=AsjdqWjXhJ8ZSWznL1J0gg%3D%3D) |                                                                                                                                                                           |
