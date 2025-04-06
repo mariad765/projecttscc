@@ -6,7 +6,7 @@ Acest proiect utilizează Autodesk Fusion 360 pentru realizarea designului carca
 
 # Diagrama Bloc
 
-
+### General:
 <prev>
 +------------------------+     +------------------------+     +------------------------+
 | USB-C + ESD Protection | --> | LDO Voltage Regulator  | --> | Li-Po Charging Ctrl.   |
