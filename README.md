@@ -188,7 +188,114 @@ CRYSTAL = Oscilator 32.768kHz pentru RTC
 | W25Q512JVEIQ                  | [W25Q512JVEIQ Datasheet](https://eu.mouser.com/datasheet/2/949/Winbond_W25Q512JV_Datasheet-3240039.pdf) | [Winbond Product](https://eu.mouser.com/ProductDetail/Winbond/W25Q512JVEIQ?qs=l7cgNqFNU1jw6svr3at6tA%3D%3D)         |                                                                                                                                                                           |
 | XC6220A331MR-G                | [XC6220A331MR-G Datasheet](https://eu.mouser.com/datasheet/2/760/xc6220-3371556.pdf) | [Torex Semiconductor Product](https://eu.mouser.com/ProductDetail/Torex-Semiconductor/XC6220A331MR-G?qs=AsjdqWjXhJ8ZSWznL1J0gg%3D%3D) |                                                                                                                                                                           |
 
+</prev>
 
 
+[note 1] - 
+<prev>
+✅ Side-Actuated Tactile Switches (Compatible with KMR2 footprint)
+1. C&K KMS231G LFS
+🔹 Size: 4.6 mm × 2.8 mm
+🔹 Height: 1.9 mm
+🔹 Actuation Force: 2.6 N
+🔹 Type: Side push (side-actuated)
+🔹 Mounting: SMT
+🔹 Footprint Compatibility: ✅ (Matches KMR2 pad spacing)
+</prev>
+[note 2] - 
+<prev>
+TP20R is often associated with a round, 2.0 mm diameter test pad.
+Here’s a commonly used and widely available match:
+
+✅ Keystone Electronics 5000 Series
+Model: Keystone 5000
+Type: SMT Test Point
+Material: Phosphor bronze
+Plating: Tin over Nickel
+Pad Diameter: Fits 2.0 mm pad
+Mounting: Surface Mount
+Aplication: General purpose test point for probes
+
+✅ Harwin S1751-46R
+Type: SMT Test Point
+For Pad: ~2.0 mm diameter
+Profile: Low
+Finish: Tin
+Common in: Test pads designed for probe contact
+
+✅ Alternative: Mill-Max 2501-2-00-80-00-00-07-0
+Type: Test Point/Contact Pad
+Style: Coined terminal
+Footprint Compatibility: Suitable with TP20R
+Mount: SMT
+Useful for: Precise contact with spring-loaded probes
 
 </prev>
+
+#  Funcționalitate hardware detaliată
+
+Proiectul se bazează pe microcontrollerul ESP32-C6 ce coordonează următoarele module:
+
+Alimentare:
+USB-C -> protecție ESD + siguranță resetabilă + diodă Schottky
+Regulator LDO 3.3V (XC6220)
+MCP73831 încarcă un acumulator Li-Po
+
+Afișaj E-Paper 2.9":
+Alimentare dedicată EPD Power + MOSFET pentru control curent
+Header 24 pini conectat prin SPI
+
+Modul de ceas RTC DS3231SN:
+Comunicare I²C
+Precizie ridicată, cristale integrate
+
+Senzor BME688:
+Comunicare I²C
+Măsoară presiune, temperatură, umiditate și compuși volatili
+
+Memorie externă NOR Flash 64MB:
+Interfață SPI
+
+Slot SD Card:
+SPI + pini selectabili pentru CS
+
+Supraveghetor tensiune + Reset & Boot IO:
+Butoane fizice pentru dezvoltare/debug
+
+Protecție ESD (TVS):
+Pe toate liniile SPI și I²C critice
+
+Header Qwiic / Stemma QT:
+Expansiune rapidă prin I²C
+
+Paduri de test TP1-TP17:
+Verificare și depanare ușoară
+
+
+# Pini ESP32-C6 folosiți
+
+<prev>
+| Pin   | Funcție      | Modul conectat                    |
+|-------|--------------|-----------------------------------|
+| IO2   | SPI CLK      | E-Paper, Flash, SD Card           |
+| IO3   | SPI MISO     | Flash, SD Card                    |
+| IO4   | SPI MOSI     | E-Paper, Flash, SD Card           |
+| IO5   | SPI CS (selectabil) | Flash                          |
+| IO6   | SPI CS       | SD Card                           |
+| IO7   | SPI CS       | E-Paper                           |
+| IO8   | I²C SDA      | RTC, BME688, Qwiic                |
+| IO9   | I²C SCL      | RTC, BME688, Qwiic                |
+| EN    | Enable       | Buton de reset                    |
+| IO0   | Boot         | Buton boot                        |
+
+</prev>
+
+# Alte resurse relevante
+
+-> Design log: toate PCB-urile au fost create în Fusion 360 Electronics, folosind standarde de rutare pentru 3.3V și SPI/I²C.
+-> Testare și depanare: TP1-TP17 permit sondare pentru verificare semnal
+
+
+# Licență
+
+Distribuit sub licența GNU GPL v3. Pentru detalii, consultă fișierul LICENSE din acest repository.
