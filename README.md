@@ -9,7 +9,6 @@ Acest proiect utilizează Autodesk Fusion 360 pentru realizarea designului carca
 ### General:
 
 <prev>
-
 +------------------------+     +------------------------+     +------------------------+
 | USB-C + ESD Protection | --> | LDO Voltage Regulator  | --> | Li-Po Charging Ctrl.   |
 +------------------------+     +------------------------+     +------------------------+
@@ -32,7 +31,8 @@ Acest proiect utilizează Autodesk Fusion 360 pentru realizarea designului carca
 +--------------+       +--------------+           +----------------------+
 | SD Card Slot |       | BME688 Sensor|           | External Flash 64MB  |
 +--------------+       +--------------+           +----------------------+
-
+</prev>
+<prev>
                            ^   |
                            |   v
                +-----------------------------+
@@ -191,7 +191,6 @@ Here's the table formatted as requested:
 | SAMACSYS_PARTS_USB4110-GF-A   | [USB4110 Product Drawing](https://eu.mouser.com/datasheet/2/837/GCT_USB4110_Product_Drawing___20k_cycles-3455479.pdf) | [GCT Product](https://eu.mouser.com/ProductDetail/GCT/USB4110-GF-A?qs=KUoIvG%2F9IlYiZvIXQjyJeA%3D%3D)                    |                                                                                                                                                                           |
 | SI1308EDL-T1-GE3              | [SI1308EDL Datasheet](https://www.vishay.com/docs/63399/si1308edl.pdf)          | [Vishay Product](https://eu.mouser.com/ProductDetail/Vishay-Semiconductors/SI1308EDL-T1-GE3?qs=bX1%252BNvsK%2FBramh9tgpOaEw%3D%3D) |                                                                                                                                                                           |
 | TPTP20R                       | [TPTP20R Datasheet](https://eu.mouser.com/datasheet/2/215/000-5004-741320.pdf)  | [Keystone Product](https://eu.mouser.com/ProductDetail/Keystone-Electronics/5000?qs=q0tsjPZWdm%252B9SiiTAbEwUw%3D%3D) | TP20R is often associated with a round, 2.0 mm diameter test pad.
-
 Here’s a commonly used and widely available match:
 
 ✅ Keystone Electronics 5000 Series
