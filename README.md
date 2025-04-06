@@ -7,7 +7,7 @@ Acest proiect utilizează Autodesk Fusion 360 pentru realizarea designului carca
 # Diagrama Bloc
 
 ### General:
-<prev>
+```
 +------------------------+     +------------------------+     +------------------------+
 | USB-C + ESD Protection | --> | LDO Voltage Regulator  | --> | Li-Po Charging Ctrl.   |
 +------------------------+     +------------------------+     +------------------------+
@@ -30,8 +30,6 @@ Acest proiect utilizează Autodesk Fusion 360 pentru realizarea designului carca
 +--------------+       +--------------+           +----------------------+
 | SD Card Slot |       | BME688 Sensor|           | External Flash 64MB  |
 +--------------+       +--------------+           +----------------------+
-</prev>
-<prev>
                            ^   |
                            |   v
                +-----------------------------+
@@ -63,10 +61,10 @@ Acest proiect utilizează Autodesk Fusion 360 pentru realizarea designului carca
                      | Test Pads |
                      +-----------+
 
-</prev>
+```
 
 ### Organizarea componentelor mici:
-<prev>
+```
 
                         +------------------------+
                         | USB-C + ESD Protection |
@@ -130,7 +128,7 @@ Acest proiect utilizează Autodesk Fusion 360 pentru realizarea designului carca
                       | Test Pads (TP1 - TP17)    |
                       +---------------------------+
 
-</prev>
+```
 
 #### Legenda componente:
 R = Rezistențe (pull-up, pull-down, programare)
