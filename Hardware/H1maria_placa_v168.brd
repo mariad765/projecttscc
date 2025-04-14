@@ -2774,6 +2774,248 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <vertex x="-5.2431625" y="61.1354"/>
 <vertex x="-9.2238" y="65.1160375"/>
 </polygon>
+<polygon width="0.1524" layer="1" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="59.8238" y="44.6160375"/>
+<vertex x="45.6431625" y="30.4354"/>
+<vertex x="45.61515625" y="30.4238"/>
+<vertex x="41.1839625" y="30.4238"/>
+<vertex x="48.9315625" y="22.6762"/>
+<vertex x="76.9160375" y="22.6762"/>
+<vertex x="59.8354" y="39.7568375"/>
+<vertex x="59.8238" y="39.78484375"/>
+</polygon>
+<polygon width="0.1524" layer="1" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="56.11515625" y="-19.5238"/>
+<vertex x="56.1431625" y="-19.5354"/>
+<vertex x="58.7238" y="-22.1160375"/>
+<vertex x="58.7238" y="-21.8315625"/>
+<vertex x="58.6354" y="-21.7431625"/>
+<vertex x="58.6238" y="-21.71515625"/>
+<vertex x="58.6238" y="-21.68484375"/>
+<vertex x="58.6354" y="-21.6568375"/>
+<vertex x="58.6568375" y="-21.6354"/>
+<vertex x="58.68484375" y="-21.6238"/>
+<vertex x="58.71515625" y="-21.6238"/>
+<vertex x="58.7431625" y="-21.6354"/>
+<vertex x="58.8238" y="-21.7160375"/>
+<vertex x="58.8238" y="-14.9315625"/>
+<vertex x="50.8354" y="-6.9431625"/>
+<vertex x="50.8238" y="-6.91515625"/>
+<vertex x="50.8238" y="7.5684375"/>
+<vertex x="45.6684375" y="12.7238"/>
+<vertex x="27.7762" y="12.7238"/>
+<vertex x="27.7762" y="-18.91515625"/>
+<vertex x="27.7646" y="-18.9431625"/>
+<vertex x="27.1839625" y="-19.5238"/>
+</polygon>
+<polygon width="0.1524" layer="1" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="44.1238" y="43.8315625"/>
+<vertex x="44.1238" y="47.1684375"/>
+<vertex x="43.95" y="47.3422375"/>
+<vertex x="25.4762" y="28.8684375"/>
+<vertex x="25.4762" y="23.3315625"/>
+<vertex x="29.7315625" y="19.0762"/>
+<vertex x="36.9238" y="19.0762"/>
+<vertex x="36.9238" y="36.61515625"/>
+<vertex x="36.9354" y="36.6431625"/>
+</polygon>
+<polygon width="0.1524" layer="1" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="16.1839625" y="53.5762"/>
+<vertex x="17.3684375" y="53.5762"/>
+<vertex x="17.7238" y="53.9315625"/>
+<vertex x="17.7238" y="54.8238"/>
+<vertex x="17.4315625" y="54.8238"/>
+</polygon>
+<polygon width="0.1524" layer="1" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="13.5315625" y="26.9762"/>
+<vertex x="18.5160375" y="26.9762"/>
+<vertex x="13.7684375" y="31.7238"/>
+<vertex x="13.4762" y="31.7238"/>
+<vertex x="13.4762" y="27.0315625"/>
+</polygon>
+<polygon width="0.1524" layer="1" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="89.0646" y="16.7431625"/>
+<vertex x="89.0762" y="16.71515625"/>
+<vertex x="89.0762" y="-5.2160375"/>
+<vertex x="101.9238" y="7.6315625"/>
+<vertex x="101.9238" y="25.8684375"/>
+<vertex x="90.5684375" y="37.2238"/>
+<vertex x="68.5839625" y="37.2238"/>
+</polygon>
+<polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="74.8839625" y="21.4762"/>
+<vertex x="77.2684375" y="21.4762"/>
+<vertex x="77.3160375" y="21.5238"/>
+<vertex x="74.9315625" y="21.5238"/>
+</polygon>
+<polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="51.9762" y="5.2238"/>
+<vertex x="51.9762" y="-1.1160375"/>
+<vertex x="52.2238" y="-0.8684375"/>
+<vertex x="52.2238" y="5.1684375"/>
+<vertex x="52.1684375" y="5.2238"/>
+</polygon>
+<polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="40.8568375" y="12.3646"/>
+<vertex x="40.8354" y="12.3431625"/>
+<vertex x="40.8238" y="12.31515625"/>
+<vertex x="40.8238" y="12.28484375"/>
+<vertex x="40.8354" y="12.2568375"/>
+<vertex x="40.9568375" y="12.1354"/>
+<vertex x="40.98484375" y="12.1238"/>
+<vertex x="44.81515625" y="12.1238"/>
+<vertex x="44.8431625" y="12.1354"/>
+<vertex x="44.8646" y="12.1568375"/>
+<vertex x="44.8762" y="12.18484375"/>
+<vertex x="44.8762" y="12.21515625"/>
+<vertex x="44.8646" y="12.2431625"/>
+<vertex x="44.7431625" y="12.3646"/>
+<vertex x="44.71515625" y="12.3762"/>
+<vertex x="40.88484375" y="12.3762"/>
+</polygon>
+<polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="52.1646" y="10.2431625"/>
+<vertex x="52.0431625" y="10.3646"/>
+<vertex x="52.01515625" y="10.3762"/>
+<vertex x="51.98484375" y="10.3762"/>
+<vertex x="51.9568375" y="10.3646"/>
+<vertex x="51.9354" y="10.3431625"/>
+<vertex x="51.9238" y="10.31515625"/>
+<vertex x="51.9238" y="9.58484375"/>
+<vertex x="51.9354" y="9.5568375"/>
+<vertex x="52.0568375" y="9.4354"/>
+<vertex x="52.08484375" y="9.4238"/>
+<vertex x="52.11515625" y="9.4238"/>
+<vertex x="52.1431625" y="9.4354"/>
+<vertex x="52.1646" y="9.4568375"/>
+<vertex x="52.1762" y="9.48484375"/>
+<vertex x="52.1762" y="10.21515625"/>
+</polygon>
+<polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="52.2646" y="9.4431625"/>
+<vertex x="52.2431625" y="9.4646"/>
+<vertex x="52.21515625" y="9.4762"/>
+<vertex x="51.98484375" y="9.4762"/>
+<vertex x="51.9568375" y="9.4646"/>
+<vertex x="51.9354" y="9.4431625"/>
+<vertex x="51.9238" y="9.41515625"/>
+<vertex x="51.9238" y="9.38484375"/>
+<vertex x="51.9354" y="9.3568375"/>
+<vertex x="51.9568375" y="9.3354"/>
+<vertex x="51.98484375" y="9.3238"/>
+<vertex x="52.0684375" y="9.3238"/>
+<vertex x="52.1568375" y="9.2354"/>
+<vertex x="52.18484375" y="9.2238"/>
+<vertex x="52.21515625" y="9.2238"/>
+<vertex x="52.2431625" y="9.2354"/>
+<vertex x="52.2646" y="9.2568375"/>
+<vertex x="52.2762" y="9.28484375"/>
+<vertex x="52.2762" y="9.41515625"/>
+</polygon>
+<polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="52.3646" y="9.0568375"/>
+<vertex x="52.3762" y="9.08484375"/>
+<vertex x="52.3762" y="9.21515625"/>
+<vertex x="52.3646" y="9.2431625"/>
+<vertex x="52.3431625" y="9.2646"/>
+<vertex x="52.31515625" y="9.2762"/>
+<vertex x="51.88484375" y="9.2762"/>
+<vertex x="51.8568375" y="9.2646"/>
+<vertex x="51.8354" y="9.2431625"/>
+<vertex x="51.8238" y="9.21515625"/>
+<vertex x="51.8238" y="8.98484375"/>
+<vertex x="51.8354" y="8.9568375"/>
+<vertex x="51.8568375" y="8.9354"/>
+<vertex x="51.88484375" y="8.9238"/>
+<vertex x="51.91515625" y="8.9238"/>
+<vertex x="51.9431625" y="8.9354"/>
+<vertex x="52.0315625" y="9.0238"/>
+<vertex x="52.31515625" y="9.0238"/>
+<vertex x="52.3431625" y="9.0354"/>
+</polygon>
+<polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="51.4762" y="9.08484375"/>
+<vertex x="51.475578125" y="9.083340625"/>
+<vertex x="51.4922375" y="9.1"/>
+<vertex x="51.4762" y="9.1160375"/>
+</polygon>
+<polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="48.1839625" y="-22.0762"/>
+<vertex x="52.2" y="-26.0922375"/>
+<vertex x="53.8238" y="-24.4684375"/>
+<vertex x="53.8238" y="-22.3315625"/>
+<vertex x="53.5684375" y="-22.0762"/>
+</polygon>
+<polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="73.7354" y="-25.7568375"/>
+<vertex x="74.0160375" y="-25.4762"/>
+<vertex x="70.98484375" y="-25.4762"/>
+<vertex x="70.9762" y="-25.47261875"/>
+<vertex x="70.9762" y="-27.5684375"/>
+<vertex x="71.2315625" y="-27.8238"/>
+<vertex x="73.7238" y="-27.8238"/>
+<vertex x="73.7238" y="-25.78484375"/>
+</polygon>
+<polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="72.8762" y="-25.9238"/>
+<vertex x="73.5238" y="-25.9238"/>
+<vertex x="73.5238" y="-25.8762"/>
+<vertex x="72.8762" y="-25.8762"/>
+</polygon>
+<polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="55.2315625" y="11.4762"/>
+<vertex x="55.3160375" y="11.4762"/>
+<vertex x="52.4684375" y="14.3238"/>
+<vertex x="52.3839625" y="14.3238"/>
+</polygon>
+<polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="49.4431625" y="15.9354"/>
+<vertex x="49.4646" y="15.9568375"/>
+<vertex x="49.4762" y="15.98484375"/>
+<vertex x="49.4762" y="16.01515625"/>
+<vertex x="49.4646" y="16.0431625"/>
+<vertex x="49.4431625" y="16.0646"/>
+<vertex x="49.41515625" y="16.0762"/>
+<vertex x="43.2315625" y="16.0762"/>
+<vertex x="41.9431625" y="17.3646"/>
+<vertex x="41.91515625" y="17.3762"/>
+<vertex x="41.88484375" y="17.3762"/>
+<vertex x="41.8568375" y="17.3646"/>
+<vertex x="41.8354" y="17.3431625"/>
+<vertex x="41.8238" y="17.31515625"/>
+<vertex x="41.8238" y="17.28484375"/>
+<vertex x="41.8354" y="17.2568375"/>
+<vertex x="43.1568375" y="15.9354"/>
+<vertex x="43.18484375" y="15.9238"/>
+<vertex x="49.41515625" y="15.9238"/>
+</polygon>
+<polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="42.7315625" y="16.5762"/>
+<vertex x="49.9160375" y="16.5762"/>
+<vertex x="49.2684375" y="17.2238"/>
+<vertex x="42.0839625" y="17.2238"/>
+</polygon>
+<polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="50.3762" y="13.3684375"/>
+<vertex x="50.3762" y="11.6839625"/>
+<vertex x="50.8238" y="12.1315625"/>
+<vertex x="50.8238" y="13.8160375"/>
+</polygon>
+<polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="48.1315625" y="10.6762"/>
+<vertex x="50.52738125" y="10.6762"/>
+<vertex x="50.5238" y="10.68484375"/>
+<vertex x="50.5238" y="10.8238"/>
+<vertex x="47.9839625" y="10.8238"/>
+</polygon>
+<polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="26.4315625" y="15.0762"/>
+<vertex x="27.8684375" y="15.0762"/>
+<vertex x="34.8922375" y="22.1"/>
+<vertex x="32.8684375" y="24.1238"/>
+<vertex x="21.2762" y="24.1238"/>
+<vertex x="21.2762" y="20.2315625"/>
+</polygon>
 </signal>
 <signal name="VUSB" class="1">
 <contactref element="PFMF.050.1" pad="1"/>
@@ -4013,7 +4255,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <wire x1="78" y1="-28.375" x2="78.02" y2="-28.41" width="0.15" layer="1"/>
 <wire x1="23.625" y1="25.625" x2="23.68" y2="25.69" width="0.15" layer="1"/>
 <wire x1="45" y1="38.875" x2="47.75" y2="38.875" width="0.15" layer="1"/>
-<wire x1="38.625" y1="38.875" x2="45" y2="38.875" width="0.15" layer="16"/>
+<wire x1="45" y1="38.875" x2="38.625" y2="38.875" width="0.15" layer="16"/>
 <wire x1="36" y1="38.875" x2="38.625" y2="38.875" width="0.15" layer="1"/>
 <wire x1="23.625" y1="26.5" x2="36" y2="38.875" width="0.15" layer="1"/>
 <wire x1="23.625" y1="25.75" x2="23.625" y2="26.5" width="0.15" layer="1"/>
@@ -4496,6 +4738,10 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="3,1,4dc122a7e2a68dc0"/>
+<approved hash="3,1,518cf0ea30ea918c"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
